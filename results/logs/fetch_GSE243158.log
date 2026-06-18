@@ -1,0 +1,6 @@
+Found 2 file(s)
+GSE243158-GPL18573_series_matrix.txt.gz
+GSE243158-GPL24676_series_matrix.txt.gz
+Error in if (qx[5] > 100 || (qx[6] - qx[1] > 50 && qx[2] > 0)) { : 
+  missing value where TRUE/FALSE needed
+Execution halted
