@@ -1,5 +1,5 @@
 dataset_id,condition,tissue_primary,subtissue,platform,technique,data_source,group_column,case_label,control_label,cycle_phase,notes
-GSE43266,PCOS,Adipose,subcutaneous adipose tissue,15362,Microarray,GEO_matrix,group,PCOS,Control,NA,total=16; 8 placebo vs 8 treatment samples; subcutaneous adipose tissue; dietary intervention study
+GSE43266,PCOS,Adipose,subcutaneous adipose tissue,15362,Microarray,GEO_matrix,agent:ch1,LC n-3 PUFA,placebo,NA,total=16; 8 placebo vs 8 treatment samples; subcutaneous adipose tissue; dietary intervention study
 GSE193812,PCOS,Adipose,Abdominal adipose stem cells (ABD),16791,RNA-seq,GEO_counts,group,PCOS,Control,NA,total=8; 4 PCOS vs 4 control; RNA-seq of abdominal and gluteofemoral adipose-derived stem cells (ASCs) isolated from premenopausal women
 GSE267287,PCOS,Adipose,"Mesenchymal progenitor cells (MPCs), adipose-derived",24676,RNA-seq,GEO_counts,group,PCOS,HC,NA,total=8; 4 PCOS vs 4 healthy control; RNA-seq of iPSC-derived mesenchymal progenitor cells (MPCs); testosterone-treated adiprogenic induction model
 GSE322696,PCOS,Adipose,Abdominal and gluteofemoral subcutaneous adipose tissue,34284,RNA-seq (snRNA-seq),GEO_counts,group,PCOS,Control,NA,total=10; 5 PCOS women; snRNA-seq of abdominal and gluteofemoral subcutaneous white adipose tissue; no healthy controls
