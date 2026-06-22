@@ -1,10 +1,10 @@
 dataset_id,condition,tissue_primary,subtissue,platform,technique,data_source,group_column,case_label,control_label,cycle_phase,notes
-GSE43266,PCOS,Adipose,subcutaneous adipose tissue,15362,Microarray,GEO_matrix,agent:ch1,LC n-3 PUFA,placebo,NA,total=16; 8 placebo vs 8 treatment samples; subcutaneous adipose tissue; dietary intervention study
-GSE193812,PCOS,Adipose,Abdominal adipose stem cells (ABD),16791,RNA-seq,GEO_counts,group,PCOS,Control,NA,total=8; 4 PCOS vs 4 control; RNA-seq of abdominal and gluteofemoral adipose-derived stem cells (ASCs) isolated from premenopausal women
-GSE267287,PCOS,Adipose,"Mesenchymal progenitor cells (MPCs), adipose-derived",24676,RNA-seq,GEO_counts,group,PCOS,HC,NA,total=8; 4 PCOS vs 4 healthy control; RNA-seq of iPSC-derived mesenchymal progenitor cells (MPCs); testosterone-treated adiprogenic induction model
+GSE43266,PCOS,Adipose,subcutaneous adipose tissue,15362,Microarray,GEO_matrix,group,PCOS,Control,NA,total=16; 8 placebo vs 8 treatment samples; subcutaneous adipose tissue; dietary intervention study
+GSE193812,PCOS,Adipose,Abdominal adipose stem cells (ABD),16791,RNA-seq,recount3,group,PCOS,Control,NA,total=8; 4 PCOS vs 4 control; RNA-seq of abdominal and gluteofemoral adipose-derived stem cells (ASCs) isolated from premenopausal women
+GSE267287,PCOS,Adipose,"Mesenchymal progenitor cells (MPCs), adipose-derived",24676,RNA-seq,ARCHS4,group,PCOS,HC,NA,total=8; 4 PCOS vs 4 healthy control; RNA-seq of iPSC-derived mesenchymal progenitor cells (MPCs); testosterone-treated adiprogenic induction model
 GSE156067,PCOS,Adipose tissue/ovary,subcutaneous abdomial adipose stem cell ,20301,RNA-seq,ARCHS4,disease status,PCOS,Control,NA,Total=18; 9 PCOS vs 9 control
-GSE43322,PCOS,Adipose tissue,Subcutaneous adipose tissue,GPL15362,Microarray,GEO_matrix,group,PCOS,Control,NA,Total=31. PCOS vs Control. Subcutaneous adipose tissue samples from women with and without PCOS
-GSE43264,PCOS,Adipose tissue,Subcutaneous adipose tissue,GPL15362,Microarray,GEO_matrix,group,PCOS,Control,NA,Total=15. PCOS=8 vs Control=7. Subcutaneous adipose tissue from women with PCOS compared with age- and BMI-matched healthy controls.
+GSE43322,PCOS,Adipose tissue,Subcutaneous adipose tissue,GPL15362,Microarray,GEO_matrix,condition:ch1,polycystic ovary syndrome (PCOS),control,NA,Total=31. PCOS vs Control. Subcutaneous adipose tissue samples from women with and without PCOS
+GSE43264,PCOS,Adipose tissue,Subcutaneous adipose tissue,GPL15362,Microarray,GEO_matrix,condition:ch1,"polycystic ovary syndrome (PCOS)",control,NA,Total=15. PCOS=8 vs Control=7. Subcutaneous adipose tissue from women with PCOS compared with age- and BMI-matched healthy controls.
 GSE98421,PCOS,Adipose tissue,Subcutaneous abdominal adipose stem cells (ASC),GPL570,Microarray,GEO_matrix,group,PCOS,Control,NA,Total=8. PCOS=4 vs Control=4. Subcutaneous abdominal adipose stem cells (ASC) from lean PCOS women and lean normal women.
 GSE124226,PCOS,Adipose tissue,Subcutaneous abdominal adipose stem cells (ASC),Affymetrix Microarray,Microarray,GEO_matrix,group,PCOS,Control,NA,Total=8. PCOS=4 vs Control=4. Subcutaneous abdominal adipose stem cells from normal-weight PCOS women and age/BMI-matched controls.
 GSE84958,PCOS,Adipose tissue,Adipose tissue,GPL16791,RNA-seq,GEO_counts,group,PCOS,Control,NA,Total=53. Control vs PCOS vs DHEA-treated PCOS. Adipose tissue RNA-seq dataset investigating androgen effects on adipose metabolism in PCOS. Bulk RNA-seq (Illumina HiSeq 2500).
@@ -16,11 +16,11 @@ GSE57832,Endometriosis,Choriodecidua,Choriodecidua,GPL17425,Microarray,GEO_matri
 GSE31683,Endometriosis,Endometrium,Human endometrial stromal cells,GPL570,Microarray,GEO_matrix,group,KLF9/PGR silenced,Control,NA,
 GSE75423,Endometriosis,Endometriotic cyst,Endometriotic cyst stromal cells,GPL17077,Microarray,GEO_matrix,group,Decidualized,Non-decidualized,NA,
 GSE57733,Endometriosis,Choriodecidua,Choriodecidua,GPL17425,Microarray,GEO_matrix,group,Severe Endometriosis,Control,Pregnancy,
-GSE243039,Endometriosis,Endometrium,Endometrial stromal cells,GPL24676,RNA-seq,raw_counts,group,Endometriosis,Control,NA,
-GSE243157,Endometriosis,Endometrium,Endometrial stromal cells,GPL24676,RNA-seq,raw_counts,group,SMAD1/5 siRNA,Scramble,NA,
-GSE288994,Endometriosis,Endometrium,Endometrial stromal cells,GPL18573,RNA-seq,raw_counts,group,ZMIZ1 KD,Control,NA,
-GSE299492,Endometriosis,Endometrium,Endometrial stromal cells,Illumina,RNA-seq,raw_counts,group,Quercetin,Vehicle,NA,
-GSE278827,Endometriosis,Endometrium,Endometrial stromal cells,Illumina,RNA-seq,raw_counts,group,Endometriosis,Control,Mid-secretory,
-GSE135640,Endometriosis,Endometrium,Endometrial stromal fibroblasts,Illumina,RNA-seq,raw_counts,group,PCOS/Endometriosis,Control,NA,
+GSE243039,Endometriosis,Endometrium,Endometrial stromal cells,GPL24676,RNA-seq,ARCHS4,group,Endometriosis,Control,NA,
+GSE243157,Endometriosis,Endometrium,Endometrial stromal cells,GPL24676,RNA-seq,ARCHS4,group,SMAD1/5 siRNA,Scramble,NA,
+GSE288994,Endometriosis,Endometrium,Endometrial stromal cells,GPL18573,RNA-seq,ARCHS4,group,ZMIZ1 KD,Control,NA,
+GSE299492,Endometriosis,Endometrium,Endometrial stromal cells,Illumina,RNA-seq,ARCHS4,group,Quercetin,Vehicle,NA,
+GSE278827,Endometriosis,Endometrium,Endometrial stromal cells,Illumina,RNA-seq,ARCHS4,group,Endometriosis,Control,Mid-secretory,
+GSE135640,Endometriosis,Endometrium,Endometrial stromal fibroblasts,Illumina,RNA-seq,ARCHS4,group,PCOS/Endometriosis,Control,NA,
 GSE6364,Endometriosis,Endometrium,Eutopic endometrium,GPL570,Microarray,GEO_matrix,group,Endometriosis,Control,Secretory,
-GSE288879,Endometrial_health,Endometrium,H1644 immortalized endometrial stromal cells,GPL24676,RNA-seq,raw_counts,group,siZMIZ1,siNT,NA,
+GSE288879,Endometrial_health,Endometrium,H1644 immortalized endometrial stromal cells,GPL24676,RNA-seq,ARCHS4,group,siZMIZ1,siNT,NA,
